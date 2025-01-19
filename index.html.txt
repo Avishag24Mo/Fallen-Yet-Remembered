@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הנצחת חללי צה"ל</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>הנצחת חללי צה"ל</h1>
+    <p>אתר זה מוקדש לחללי צה"ל שמקום קבורתם לא נודע.</p>
+</header>
+
+<div class="container">
+    <h2>רשימת החללים</h2>
+
+    <div class="card">
+        <h2>יוסף כהן</h2>
+        <p><strong>תאריך נפילה:</strong> 10/05/1948</p>
+        <p><strong>גיל בעת פטירה:</strong> 22</p>
+        <p><strong>שנים חלפו מאז הנפילה:</strong> 77 שנים</p>
+    </div>
+
+    <div class="card">
+        <h2>מנחם לוי</h2>
+        <p><strong>תאריך נפילה:</strong> 12/06/1967</p>
+        <p><strong>גיל בעת פטירה:</strong> 26</p>
+        <p><strong>שנים חלפו מאז הנפילה:</strong> 58 שנים</p>
+    </div>
+
+    <div class="card">
+        <h2>אלי דוד</h2>
+        <p><strong>תאריך נפילה:</strong> 06/10/1973</p>
+        <p><strong>גיל בעת פטירה:</strong> 24</p>
+        <p><strong>שנים חלפו מאז הנפילה:</strong> 52 שנים</p>
+    </div>
+</div>
+
+<footer>
+    <p>האתר נבנה כהוקרה לחללי צה"ל</p>
+</footer>
+
+</body>
+</html>
